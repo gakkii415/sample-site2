@@ -1,14 +1,32 @@
-# A Tattoo Studio — image assets
+# A Tattoo Studio
 
-Landing-page asset set derived from the supplied design reference.
+A cinematic, one-page landing page for a dark-girly fine-line tattoo studio.
 
-- 8 photographic WebP images in `public/assets/images/`
-- 7 reusable SVG ornaments in `public/assets/decor/`
-- 3 texture assets in `public/assets/textures/`
-- total size: under 1 MB
-- palette: near-black, dusty rose, deep wine
-- direction: cinematic Japanese dark-romantic fashion editorial
+**Live site:** https://a-tattoo-studio.mea1105.chatgpt.site
 
-See [`public/assets/images/ASSETS.md`](public/assets/images/ASSETS.md) for placement, alt text, dimensions, and generation notes.
+## Design direction
 
-> These are AI-generated concept assets. Replace the gallery images with photographs of real completed work before presenting them as the studio's portfolio.
+- near-black, dusty rose, and warm paper palette
+- asymmetric editorial image grids
+- serif-led fashion typography
+- lace, fine-line motifs, film grain, and paper texture
+- responsive layouts for mobile, tablet, and desktop
+
+## Stack
+
+Vinext / Next.js / React / TypeScript / CSS
+
+## Source
+
+- `app/page.tsx`: page structure and content
+- `app/globals.css`: visual system and responsive layout
+- `public/assets/`: photographs, SVG ornaments, and textures
+
+## Build
+
+```bash
+npm ci
+npm run build
+```
+
+Booking, location, and social destinations remain placeholders until real details are supplied.
