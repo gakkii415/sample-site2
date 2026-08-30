@@ -1,3 +1,5 @@
+import { RevealController } from "./reveal";
+
 const content = {
   navigation: [
     { label: "OUR STYLE", href: "#style" },
@@ -64,6 +66,7 @@ function Eyebrow({ children }: { children: React.ReactNode }) {
 export default function Home() {
   return (
     <main id="top">
+      <RevealController />
       <div className="film-wear" aria-hidden="true" />
 
       <header className="site-header">
@@ -118,11 +121,11 @@ export default function Home() {
       <section className="about paper-section" id="about" aria-labelledby="about-title">
         <img className="lace lace--about" src="/assets/textures/lace-corner.webp" alt="" aria-hidden="true" />
         <div className="about__inner page-shell">
-          <figure className="about__photo photo-frame">
+          <figure className="about__photo photo-frame" data-reveal="image">
             <img src="/assets/images/studio-exterior.webp" alt="夜の路地に佇む黒いタトゥースタジオ" width="1122" height="1402" loading="lazy" />
             <figcaption>A TATTOO STUDIO / NIGHT VIEW</figcaption>
           </figure>
-          <div className="about__copy">
+          <div className="about__copy" data-reveal="content">
             <Eyebrow>ABOUT US</Eyebrow>
             <h2 id="about-title">「好き」を、<br />肌のいちばん近くに。</h2>
             <div className="hairline" aria-hidden="true" />
@@ -132,7 +135,7 @@ export default function Home() {
               <p>ファッションやメイクまで含めて、あなたに似合うひとつを描きます。</p>
             </div>
           </div>
-          <img className="about__stamp" src="/assets/decor/emblem-stamp.svg" alt="" aria-hidden="true" />
+          <img className="about__stamp" data-reveal="decor" src="/assets/decor/emblem-stamp.svg" alt="" aria-hidden="true" />
         </div>
       </section>
 
@@ -140,7 +143,7 @@ export default function Home() {
         <img className="gallery__lineart gallery__lineart--one" src="/assets/decor/motif-botanical.svg" alt="" aria-hidden="true" />
         <img className="gallery__lineart gallery__lineart--two" src="/assets/decor/motif-butterfly.svg" alt="" aria-hidden="true" />
         <div className="gallery__inner page-shell">
-          <div className="gallery__intro">
+          <div className="gallery__intro" data-reveal="content">
             <Eyebrow>SELECTED WORK</Eyebrow>
             <h2 id="gallery-title">PRETTY THINGS,<br /><em>SHARP EDGES.</em></h2>
             <div className="body-copy body-copy--light">
@@ -151,13 +154,13 @@ export default function Home() {
             <a className="text-link" href="#gallery-list">VIEW GALLERY <span>↗</span></a>
           </div>
           <div className="gallery-grid" id="gallery-list">
-            <figure className="gallery-card gallery-card--portrait">
+            <figure className="gallery-card gallery-card--portrait" data-reveal="image">
               <img src="/assets/images/gallery-portrait.webp" alt="リボンと植物のファインラインタトゥー" width="1122" height="1402" loading="lazy" />
             </figure>
-            <figure className="gallery-card gallery-card--forearm">
+            <figure className="gallery-card gallery-card--forearm reveal-delay-1" data-reveal="image">
               <img src="/assets/images/gallery-forearm.webp" alt="腕に施された繊細なリボンと植物のタトゥー" width="1086" height="1448" loading="lazy" />
             </figure>
-            <figure className="gallery-card gallery-card--ankle">
+            <figure className="gallery-card gallery-card--ankle reveal-delay-2" data-reveal="image">
               <img src="/assets/images/gallery-ankle.webp" alt="足首に施された月とリボンの小さなタトゥー" width="1448" height="1086" loading="lazy" />
             </figure>
           </div>
@@ -165,13 +168,13 @@ export default function Home() {
       </section>
 
       <section className="style" id="style" aria-labelledby="style-title">
-        <div className="style__image-wrap">
+        <div className="style__image-wrap" data-reveal="image">
           <img src="/assets/images/style-editorial.webp" alt="タトゥースタジオで振り返るダークガーリーな装いの女性" width="1448" height="1086" loading="lazy" />
           <span className="vertical-note">FINE LINE / DARK GIRLY / TOKYO</span>
         </div>
         <div className="style__copy paper-section">
           <img className="style__motif" src="/assets/decor/motif-botanical.svg" alt="" aria-hidden="true" />
-          <div>
+          <div data-reveal="content">
             <Eyebrow>OUR STYLE</Eyebrow>
             <h2 id="style-title">甘さは残す。<br />媚びは残さない。</h2>
             <div className="hairline" aria-hidden="true" />
@@ -188,7 +191,7 @@ export default function Home() {
       </section>
 
       <section className="session dark-section" id="session" aria-labelledby="session-title">
-        <div className="session__heading page-shell">
+        <div className="session__heading page-shell" data-reveal="content">
           <Eyebrow>BOOK A SESSION</Eyebrow>
           <h2 id="session-title">まだ言葉になっていない<br />「好き」からでも。</h2>
           <p>保存している写真や好きな服、メイクの雰囲気から、一緒にイメージを形にします。</p>
@@ -196,7 +199,7 @@ export default function Home() {
         <div className="session__body page-shell">
           <div className="features">
             {content.sessionFeatures.map((feature, index) => (
-              <article className="feature" key={feature.title}>
+              <article className={`feature reveal-delay-${Math.min(index, 3)}`} data-reveal="content" key={feature.title}>
                 <span className="feature__number">0{index + 1}</span>
                 <img src={feature.icon} alt="" aria-hidden="true" />
                 <p className="feature__title">{feature.title}</p>
@@ -205,7 +208,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <figure className="session__photo">
+          <figure className="session__photo" data-reveal="image">
             <img src="/assets/images/studio-interior.webp" alt="黒い施術台とくすみピンクのカーテンがある清潔な施術室" width="1672" height="941" loading="lazy" />
           </figure>
         </div>
@@ -214,7 +217,7 @@ export default function Home() {
       <section className="booking" id="booking" aria-labelledby="booking-title">
         <img className="booking__image" src="/assets/images/booking-still-life.webp" alt="黒いベルベットにリボンやアクセサリーを配した静物" width="1774" height="887" loading="lazy" />
         <div className="booking__overlay" aria-hidden="true" />
-        <div className="booking__content">
+        <div className="booking__content" data-reveal="content">
           <img src="/assets/decor/icon-bow.svg" alt="" width="46" height="30" />
           <h2 id="booking-title">BOOK A SESSION</h2>
           <p className="booking__lead">かわいいの、その先を選ぶ。</p>
