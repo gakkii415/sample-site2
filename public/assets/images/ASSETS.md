@@ -23,3 +23,25 @@ The hero establishes the fictional adult model. The portrait and style images re
 - Use responsive `<picture>`/image components and set explicit aspect ratios to prevent layout shift.
 - Add a dark overlay to the hero and booking image in CSS; do not bake text into the images.
 - Treat generated tattoo photographs as design placeholders, not evidence of completed client work.
+
+## Decorative SVG assets
+
+| File | Use |
+|---|---|
+| `../decor/logo-monogram.svg` | Header/footer brand mark |
+| `../decor/emblem-stamp.svg` | Low-opacity circular seal in light sections |
+| `../decor/icon-bow.svg` | Small section labels and navigation accents |
+| `../decor/motif-butterfly.svg` | Large low-opacity background line art |
+| `../decor/motif-botanical.svg` | Section-edge botanical line art |
+| `../decor/motif-thorn-heart.svg` | Service/booking ornamental motif |
+| `../decor/ornament-divider.svg` | Horizontal section divider |
+
+The SVGs use `currentColor`; inline them or use them as CSS masks when recoloring is required.
+
+## Texture assets
+
+| File | Use |
+|---|---|
+| `../textures/lace-corner.webp` | Transparent lace corner overlay |
+| `../textures/paper-fiber.webp` | Repeating light-section paper texture |
+| `../textures/film-wear.svg` | Transparent dust/scratch overlay above dark photography |

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" role="img" aria-labelledby="title">
+  <title id="title">Fine-line butterfly motif</title>
+  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M129 90C103 38 47 22 27 54c-20 33 27 73 92 65-49 9-74 47-51 65 21 17 50-15 61-57"/>
+    <path d="M131 90c26-52 82-68 102-36 20 33-27 73-92 65 49 9 74 47 51 65-21 17-50-15-61-57"/>
+    <path d="M130 85c-9 13-10 37 0 50 10-13 9-37 0-50ZM127 87c-8-20-15-26-25-31M133 87c8-20 15-26 25-31"/>
+    <path d="M35 58c24 5 50 24 79 53M225 58c-24 5-50 24-79 53M72 169c14-14 28-26 45-36M188 169c-14-14-28-26-45-36" opacity=".45"/>
+    <path d="M130 135c-2 29 5 44 16 57" stroke-dasharray="2 7" opacity=".55"/>
+  </g>
+</svg>

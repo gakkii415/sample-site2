@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title">
+  <title id="title">Thorn heart motif</title>
+  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 258C122 226 54 184 43 119 34 63 101 38 150 94c49-56 116-31 107 25-11 65-79 107-107 139Z"/>
+    <path d="m75 83 24 1-9-20M55 129l23-9-17-15M79 184l19-17-23-7M118 230l12-23-25 2M225 83l-24 1 9-20M245 129l-23-9 17-15M221 184l-19-17 23-7M182 230l-12-23 25 2"/>
+    <path d="M126 98c-18-11-40-9-53 7M174 98c18-11 40-9 53 7" opacity=".45"/>
+    <path d="M150 247c-15 15-25 27-27 39M150 247c15 15 25 27 27 39"/>
+    <path d="M150 257c-10-12-27-11-31 0-5 13 13 20 31 8 18 12 36 5 31-8-4-11-21-12-31 0Z"/>
+  </g>
+</svg>

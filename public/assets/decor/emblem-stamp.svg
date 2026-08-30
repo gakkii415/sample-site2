@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">A Tattoo Studio circular emblem</title>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="120" r="104" stroke-width="2"/>
+    <circle cx="120" cy="120" r="91" opacity=".55"/>
+    <circle cx="120" cy="120" r="67" opacity=".35"/>
+    <path d="M120 8v14M120 218v14M8 120h14M218 120h14M41 41l10 10M189 189l10 10M199 41l-10 10M51 189l-10 10"/>
+    <path d="M120 35c4 7 9 10 17 9-4 5-5 11-2 18-6-3-11-2-15 3-4-5-9-6-15-3 3-7 2-13-2-18 8 1 13-2 17-9Z" opacity=".7"/>
+    <path d="M120 205c-4-7-9-10-17-9 4-5 5-11 2-18 6 3 11 2 15-3 4 5 9 6 15 3-3 7-2 13 2 18-8-1-13 2-17 9Z" opacity=".7"/>
+  </g>
+  <path fill="currentColor" fill-rule="evenodd" d="M120 62 88 176h14l7-28h22l7 28h14L120 62Zm0 43 8 30h-16l8-30Z"/>
+</svg>

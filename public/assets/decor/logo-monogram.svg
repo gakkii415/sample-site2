@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">A Tattoo Studio monogram</title>
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 8 91 20l17-2 5 16 16 5-2 17 12 11-12 11 2 17-16 5-5 16-17-2-11 12-11-12-17 2-5-16-16-5 2-17-12-11 12-11-2-17 16-5 5-16 17 2L80 8Z" opacity=".72"/>
+    <path d="M80 17 91 27l15-1 4 14 14 4-1 15 10 8-10 9 1 15-14 4-4 14-15-1-11 10-11-10-15 1-4-14-14-4 1-15-10-9 10-8-1-15 14-4 4-14 15 1 11-10Z" opacity=".32"/>
+    <path d="M53 132h54M58 28h44" stroke-width="2"/>
+  </g>
+  <path fill="currentColor" fill-rule="evenodd" d="M80 30 43 130h15l9-26h26l9 26h15L80 30Zm0 36 9 25H71l9-25Z"/>
+</svg>

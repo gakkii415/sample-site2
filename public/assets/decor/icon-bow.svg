@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" role="img" aria-labelledby="title">
+  <title id="title">Ribbon bow</title>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 31C39 13 16 10 12 25c-4 17 22 20 40 11"/>
+    <path d="M68 31c13-18 36-21 40-6 4 17-22 20-40 11"/>
+    <path d="M52 31c3-4 13-4 16 0l-1 12c-4 4-10 4-14 0l-1-12Z"/>
+    <path d="m54 44-13 27 18-12M66 44l13 27-18-12"/>
+    <path d="M17 25c11-2 21 1 32 8M103 25c-11-2-21 1-32 8" opacity=".5"/>
+  </g>
+</svg>

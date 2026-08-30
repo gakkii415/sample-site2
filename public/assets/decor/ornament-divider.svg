@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 56" role="img" aria-labelledby="title">
+  <title id="title">Bow section divider</title>
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 28h250M382 28h250" opacity=".55"/>
+    <path d="M300 22c-14-16-34-13-34-1 0 13 19 17 34 8M340 22c14-16 34-13 34-1 0 13-19 17-34 8"/>
+    <path d="M300 22c5-4 35-4 40 0l-2 14c-8 4-28 4-36 0l-2-14ZM307 39l-10 13M333 39l10 13"/>
+  </g>
+</svg>

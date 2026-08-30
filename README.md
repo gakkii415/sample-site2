@@ -1,9 +1,11 @@
 # A Tattoo Studio — image assets
 
-Landing-page image set derived from the supplied design reference. All production-ready files are WebP and live under `public/assets/images/`.
+Landing-page asset set derived from the supplied design reference.
 
-- 8 images
-- total size: about 400 KB
+- 8 photographic WebP images in `public/assets/images/`
+- 7 reusable SVG ornaments in `public/assets/decor/`
+- 3 texture assets in `public/assets/textures/`
+- total size: under 1 MB
 - palette: near-black, dusty rose, deep wine
 - direction: cinematic Japanese dark-romantic fashion editorial
 
